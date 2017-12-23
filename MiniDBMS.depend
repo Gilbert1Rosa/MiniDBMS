@@ -1,0 +1,300 @@
+# depslib dependency file v1.0
+1513800737 source:c:\users\grosa\documents\projects\minidbms\dbengine\constraints\fkconstraint.cpp
+	"FkConstraint.h"
+
+1513801431 c:\users\grosa\documents\projects\minidbms\dbengine\constraints\fkconstraint.h
+
+1513799995 source:c:\users\grosa\documents\projects\minidbms\dbengine\constraints\pkconstraint.cpp
+	"PkConstraint.h"
+
+1513801410 c:\users\grosa\documents\projects\minidbms\dbengine\constraints\pkconstraint.h
+
+1513867258 source:c:\users\grosa\documents\projects\minidbms\dbengine\field.cpp
+	"Field.h"
+	"Helper/StringHelper.h"
+
+1513866734 c:\users\grosa\documents\projects\minidbms\dbengine\field.h
+	"FieldType.h"
+	<string>
+	<vector>
+
+1513801884 c:\users\grosa\documents\projects\minidbms\dbengine\fieldtype.h
+	<string>
+
+1513801900 source:c:\users\grosa\documents\projects\minidbms\dbengine\fieldtype.cpp
+	"FieldType.h"
+
+1513868558 source:c:\users\grosa\documents\projects\minidbms\dbengine\fileengine\tablereader.cpp
+	"TableReader.h"
+	"../Helper/StringHelper.h"
+
+1513866638 c:\users\grosa\documents\projects\minidbms\dbengine\fileengine\tablereader.h
+	<fstream>
+	<string>
+	<vector>
+	"../Table.h"
+
+1513867387 c:\users\grosa\documents\projects\minidbms\dbengine\table.h
+	<vector>
+	"Field.h"
+	"Constraints/PkConstraint.h"
+	"Constraints/FkConstraint.h"
+
+1513863305 source:c:\users\grosa\documents\projects\minidbms\dbengine\fileengine\tablewriter.cpp
+	"TableWriter.h"
+	"../FieldType.h"
+	<vector>
+	<sstream>
+
+1513792494 c:\users\grosa\documents\projects\minidbms\dbengine\fileengine\tablewriter.h
+	<fstream>
+	<string>
+	"../Table.h"
+
+1513867404 source:c:\users\grosa\documents\projects\minidbms\dbengine\table.cpp
+	"Table.h"
+
+1513868717 source:c:\users\grosa\documents\projects\minidbms\main.cpp
+	<iostream>
+	<sstream>
+	"DBEngine/Table.h"
+	"DBEngine/FileEngine/TableWriter.h"
+	"DBEngine/FileEngine/TableReader.h"
+
+1513868099 source:c:\users\grosa\documents\projects\minidbms\dbengine\helper\stringhelper.cpp
+	"StringHelper.h"
+	<sstream>
+	<string>
+	<cstdlib>
+
+1513864693 c:\users\grosa\documents\projects\minidbms\dbengine\helper\stringhelper.h
+	<string>
+	<vector>
+
+1513867258 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\field.cpp
+	"Field.h"
+	"Helper/StringHelper.h"
+
+1513866734 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\field.h
+	"FieldType.h"
+	<string>
+	<vector>
+
+1513801884 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\fieldtype.h
+	<string>
+
+1513969388 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\helper\stringhelper.h
+	<string>
+	<vector>
+
+1513801900 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\fieldtype.cpp
+	"FieldType.h"
+
+1513969417 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\fileengine\tablereader.cpp
+	"TableReader.h"
+	"../Helper/StringHelper.h"
+
+1513866638 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\fileengine\tablereader.h
+	<fstream>
+	<string>
+	<vector>
+	"../Table.h"
+
+1513966630 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\table.h
+	<vector>
+	"Field.h"
+
+1513801410 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\constraints\pkconstraint.h
+
+1513801431 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\constraints\fkconstraint.h
+
+1513863305 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\fileengine\tablewriter.cpp
+	"TableWriter.h"
+	"../FieldType.h"
+	<vector>
+	<sstream>
+
+1513792494 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\fileengine\tablewriter.h
+	<fstream>
+	<string>
+	"../Table.h"
+
+1513969401 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\helper\stringhelper.cpp
+	"StringHelper.h"
+	<sstream>
+	<string>
+	<cstdlib>
+
+1513974411 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\table.cpp
+	"Table.h"
+
+1513973721 source:c:\users\grosa\documents\projects\filesx\minidbms\main.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	"DBEngine/Table.h"
+	"DBEngine/FileEngine/TableWriter.h"
+	"DBEngine/FileEngine/TableReader.h"
+	"DBEngine/Constraint/PrimaryKeyChecker.h"
+	"DBEngine/Helper/DateHelper.h"
+	<ctime>
+
+1513889882 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\constraint\foreignkeychecker.cpp
+
+1513965048 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\constraint\primarykeychecker.cpp
+	"PrimaryKeyChecker.h"
+	<iostream>
+
+1513964500 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\constraint\primarykeychecker.h
+	<string>
+	<vector>
+	"../Table.h"
+
+1513970992 source:c:\users\grosa\documents\projects\filesx\minidbms\dbengine\helper\datehelper.cpp
+	"DateHelper.h"
+	"StringHelper.h"
+	<iostream>
+
+1513969215 c:\users\grosa\documents\projects\filesx\minidbms\dbengine\helper\datehelper.h
+	<ctime>
+	<string>
+
+1513995041 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\constraint\foreignkeychecker.cpp
+	"ForeignKeyChecker.h"
+
+1513988083 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\constraint\primarykeychecker.cpp
+	"PrimaryKeyChecker.h"
+	<iostream>
+
+1513988083 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\constraint\primarykeychecker.h
+	<string>
+	<vector>
+	"../Table.h"
+
+1513988107 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\table.h
+	<vector>
+	"Field.h"
+
+1513988083 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\field.h
+	"FieldType.h"
+	<string>
+	<vector>
+
+1513988083 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\fieldtype.h
+	<string>
+
+1513988083 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\field.cpp
+	"Field.h"
+	"Helper/StringHelper.h"
+
+1513988084 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\helper\stringhelper.h
+	<string>
+	<vector>
+
+1513988083 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\fieldtype.cpp
+	"FieldType.h"
+
+1513988083 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\fileengine\tablereader.cpp
+	"TableReader.h"
+	"../Helper/StringHelper.h"
+
+1514052602 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\fileengine\tablereader.h
+	<fstream>
+	<string>
+	<vector>
+	"../Table.h"
+
+1514061043 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\fileengine\tablewriter.cpp
+	"TableWriter.h"
+	"../FieldType.h"
+	<vector>
+	<sstream>
+
+1514061086 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\fileengine\tablewriter.h
+	<fstream>
+	<string>
+	"../Table.h"
+
+1513988084 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\helper\datehelper.cpp
+	"DateHelper.h"
+	"StringHelper.h"
+	<iostream>
+
+1513988084 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\helper\datehelper.h
+	<ctime>
+	<string>
+
+1513988084 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\helper\stringhelper.cpp
+	"StringHelper.h"
+	<sstream>
+	<string>
+	<cstdlib>
+
+1513988107 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\table.cpp
+	"Table.h"
+
+1514060482 source:c:\users\gilbert\documents\codigos\filesx\minidbms\main.cpp
+	<iostream>
+	<sstream>
+	<vector>
+	"test/test.h"
+	"DBEngine/DBEngine.h"
+	"test/Factura.h"
+
+1513995034 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\constraint\foreignkeychecker.h
+	<string>
+	<vector>
+	"../Table.h"
+
+1514061231 source:c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\dbengine.cpp
+	"DBEngine.h"
+	"FileEngine/TableReader.h"
+	"FileEngine/TableWriter.h"
+	"Constraint/PrimaryKeyChecker.h"
+	"Constraint/ForeignKeyChecker.h"
+
+1514061318 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\dbengine.h
+	<map>
+	<string>
+	<vector>
+	"Table.h"
+	"Entity/Entity.h"
+
+1514048893 c:\users\gilbert\documents\codigos\filesx\minidbms\dbengine\entity\entity.h
+	<map>
+	<string>
+
+1514058529 c:\users\gilbert\documents\codigos\filesx\minidbms\test\factura.h
+	"../DBEngine/Entity/Entity.h"
+
+1514059106 source:c:\users\gilbert\documents\codigos\filesx\minidbms\test\factura.cpp
+	"Factura.h"
+
+1514058362 source:c:\users\gilbert\documents\codigos\filesx\minidbms\test\persona.cpp
+	"Persona.h"
+
+1514058535 c:\users\gilbert\documents\codigos\filesx\minidbms\test\persona.h
+	"../DBEngine/Entity/Entity.h"
+
+1514057877 source:c:\users\gilbert\documents\codigos\filesx\minidbms\test\tests.cpp
+	"test.h"
+
+1514059921 c:\users\gilbert\documents\codigos\filesx\minidbms\test\test.h
+	<iostream>
+	<sstream>
+	<vector>
+	"../DBEngine/DBEngine.h"
+	"../DBEngine/Table.h"
+	"../DBEngine/FileEngine/TableWriter.h"
+	"../DBEngine/FileEngine/TableReader.h"
+	"../DBEngine/Constraint/PrimaryKeyChecker.h"
+	"../DBEngine/Constraint/ForeignKeyChecker.h"
+	"../DBEngine/Helper/DateHelper.h"
+	"../DBEngine/Entity/Entity.h"
+	"Persona.h"
+	"Factura.h"
+	<ctime>
+
+1514061155 source:c:\users\gilbert\documents\codigos\filesx\minidbms\test\test.cpp
+	"test.h"
+

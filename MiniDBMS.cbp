@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MiniDBMS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MiniDBMS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MiniDBMS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="DBEngine/Constraint/ForeignKeyChecker.cpp" />
+		<Unit filename="DBEngine/Constraint/ForeignKeyChecker.h" />
+		<Unit filename="DBEngine/Constraint/PrimaryKeyChecker.cpp" />
+		<Unit filename="DBEngine/Constraint/PrimaryKeyChecker.h" />
+		<Unit filename="DBEngine/DBEngine.cpp" />
+		<Unit filename="DBEngine/DBEngine.h" />
+		<Unit filename="DBEngine/Entity/Entity.h" />
+		<Unit filename="DBEngine/Field.cpp" />
+		<Unit filename="DBEngine/Field.h" />
+		<Unit filename="DBEngine/FieldType.cpp" />
+		<Unit filename="DBEngine/FieldType.h" />
+		<Unit filename="DBEngine/FileEngine/TableReader.cpp" />
+		<Unit filename="DBEngine/FileEngine/TableReader.h" />
+		<Unit filename="DBEngine/FileEngine/TableWriter.cpp" />
+		<Unit filename="DBEngine/FileEngine/TableWriter.h" />
+		<Unit filename="DBEngine/Helper/DateHelper.cpp" />
+		<Unit filename="DBEngine/Helper/DateHelper.h" />
+		<Unit filename="DBEngine/Helper/StringHelper.cpp" />
+		<Unit filename="DBEngine/Helper/StringHelper.h" />
+		<Unit filename="DBEngine/Table.cpp" />
+		<Unit filename="DBEngine/Table.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="test/Factura.cpp" />
+		<Unit filename="test/Factura.h" />
+		<Unit filename="test/Persona.cpp" />
+		<Unit filename="test/Persona.h" />
+		<Unit filename="test/test.cpp" />
+		<Unit filename="test/test.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

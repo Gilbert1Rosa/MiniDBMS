@@ -1,0 +1,4 @@
+0|id|0|1|0||
+1|id_persona|0|0|1|id|Persona
+2|importe|1|0|0||
+3|fecha|3|0|0||
